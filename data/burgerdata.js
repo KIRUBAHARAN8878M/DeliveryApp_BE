@@ -10,7 +10,7 @@ const burgers = [
         },
       ],
       category: "veg",
-      image: "/images/bosswhooper.jpeg",
+      image: "/images/bosswhooper.jpg",
       description: "Classic delight with 100% real mozzarella cheese",
     },
     {
@@ -24,7 +24,7 @@ const burgers = [
         },
       ],
       category: "veg",
-      image: "/images/cheezytwins.jpeg",
+      image: "/images/cheezytwins.jpg",
       description:
         "Delightful combination of onion, capsicum, tomato & grilled mushroom",
     },
@@ -41,7 +41,7 @@ const burgers = [
       category: "veg",
       description:
         "The awesome foursome! Golden corn, black olives, capsicum, red paprika",
-      image: "/images/pannerroyleburger.jpeg",
+      image: "/images/pannerroyleburger.jpg",
     },
     {
       name: "King Egg Burger",
@@ -54,7 +54,7 @@ const burgers = [
         },
       ],
       category: "nonveg",
-      image: "/images/kingeggburger.jpeg",
+      image: "/images/kingeggburger.jpg",
       description:
         "Double pepper barbecue chicken, golden corn and extra cheese, true delight",
     },
@@ -69,7 +69,7 @@ const burgers = [
         },
       ],
       category: "nonveg",
-      image: "/images/tikkitwistburger.jpeg",
+      image: "/images/tikkitwistburger.jpg",
       description:
         "A classic American taste! Relish the delectable flavor of Chicken Pepperoni, topped with extra cheese",
     },
@@ -84,7 +84,7 @@ const burgers = [
         },
       ],
       category: "veg",
-      image: "/images/vegwhooper.jpeg",
+      image: "/images/vegwhooper.jpg",
       description:
         "The wholesome flavour of tandoori masala with Chicken tikka, onion, red paprika & mint mayo",
     },
