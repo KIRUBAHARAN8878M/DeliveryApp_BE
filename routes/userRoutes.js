@@ -54,8 +54,13 @@ router.get("/getallusers", async (req, res) => {
 router.post('/deleteuser', async(req, res) => {
   const userid = req.body.userid
   try {
-    await User.findOneAndDelete({_id: userid})
-    res.status(200).send("User Deleted")
+    if(userid === "63be72e583966cb6b52936d4" || userid === "63be733483966cb6b52936d7"){
+res.status(401).send("Unauthorized")
+    }else{
+      await User.findOneAndDelete({_id: userid})
+      res.status(200).send("User Deleted")
+    }
+    
   } catch (error) {
     res.status(404).json({ message: error.stack });    
   }
